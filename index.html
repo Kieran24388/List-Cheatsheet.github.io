@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Resources/stylesheet.css" type="text/css"/>
+    </head>
+    <body>
+        <h1>HTML Cheatsheet - Lists</h1>
+        <h2>Types of list in HTML</h2>
+            <dl>
+                <dt>Ordered Lists</dt>
+                <dd>A list where each item in the list is numbered eg. steps in a recipe.</dd>
+                <dt>Unordered Lists</dt>
+                <dd>A list where each item has a bullet point.</dd>
+                <dt>Definition Lists</dt>
+                <dd>A list made up of a set of terms along with the definition of each of those terms. This list is an example of a definition list.</dd>
+            </dl>
+        <h2>HTML list elements</h2>
+        <table>
+            <thead class="headings">
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">&lt;ol&gt;</span></td>
+                    <td>Ordered list</td>
+                    <td>Used to create an ordered list</td>
+                    <td>Each item is placed within an opening <span class="code">&lt;li&gt;</span> tag and a closing <span class="code">&lt;/li&gt;</span> tag. Each item will be preceded by a sequential number.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;ul&gt;</span></td>
+                    <td>Unordered list</td>
+                    <td>Used to create an unordered list</td>
+                    <td>Each item is placed within an opening <span class="code">&lt;li&gt;</span> tag and a closing <span class="code">&lt;/li&gt;</span> tag. Each item will be prededed by a bullet point.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;li&gt;</span></td>
+                    <td>List item</td>
+                    <td>Used as a child of <span class="code">&lt;ol&gt;</span> or <span class="code">&lt;ul&gt;</span> to enclose list items</td>
+                    <td>Browsers indent list items by default.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;dl&gt;</span></td>
+                    <td>Definition list</td>
+                    <td>Used to list a series of terms and their definitions eg. a dictionary</td>
+                    <td>Example of definition list shown above in 'Types of list in HTML' section. Inside the <span class="code">&lt;dl&gt;</span> element you will usually see pairs of <span class="code">&lt;dt&gt;</span> and <span class="code">&lt;dd&gt;</span> elements.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;dt&gt;</span></td>
+                    <td>Definition term</td>
+                    <td>Used to contain the term being defined</td>
+                    <td>Usually a child of the <span class="code">&lt;dl&gt;</span> element. Example: a word in the dictionary.</td>
+                </tr>
+                <tr>
+                    <td><span class="code">&lt;dd&gt;</span></td>
+                    <td>Definition</td>
+                    <td>Used to contain the definition</td>
+                    <td>Provides a definition for the term in the <span class="code">&lt;dt&gt;</span> element.</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="4">Additional notes: 
+                    <ul>
+                        <li>Lists can also be nested inside other lists. The browser will render these with a further indentation and usually with a different style of bullet point.</li>
+                        <li>Additional information on lists can be found <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">here.</a></li>
+                    </ul>
+                </td>
+            </tfoot>
+        </table>
+    </body>
+</html>
